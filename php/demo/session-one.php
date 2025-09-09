@@ -5,7 +5,7 @@
     // Student variables (can change)
     $studentName = "Prabhat Kumar";
     $age = 20;
-    $course = "B.Tech Computer Science";
+    $course = "B.Tech Information Technology";
     $email = "prabhat.librian@gmail.com";
     $grade = "A";
     $gpa = 8.75;
