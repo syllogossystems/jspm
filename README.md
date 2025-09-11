@@ -12,7 +12,9 @@ Check http://localhost:3000
 
 # scaffold
 1. Run bellow commands in powershell
-    ```rails generate scaffold Student enrollment_number:string first_name:string last_name:string date_of_birth:date email:string phone:string
+    ```
+      rails generate scaffold Student enrollment_number:string first_name:string last_name:string date_of_birth:date email:string phone:string
       bundle install
       rails db:create db:migrate
-      rails server```
+      rails server
+    ```
