@@ -10,7 +10,7 @@ Rails -v
 4. Go to Workspace where you want to create rails project
 5. For **creating Rail application** by runing with sqlite3
 ```
-rails _7.1.3.4_ new student_registration_app -d sqlite3
+rails _7.1.3.4_ new student_registration_app -d sqlite3 --skip-git
 ```
 6. Go to the cd .\student_registration_app\
 7. Run bellow commands to package the application and database creation.
