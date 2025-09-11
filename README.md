@@ -36,3 +36,10 @@ rails db:create db:migrate
 rails server
 ```
 Check http://localhost:3000/students
+
+3. If necessary clear the cache and run in incognito
+```
+Get-Process ruby -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+Get-Process rails -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+Remove-Item -Path .\tmp\cache -Recurse -Force -ErrorAction Stop
+```
